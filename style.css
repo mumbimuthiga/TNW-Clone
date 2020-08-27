@@ -1,0 +1,269 @@
+#bar{
+ background-color: black;
+	height: 50px;
+	width: 100%;
+}
+#bar2{
+	position: absolute;
+	top: 50px;
+ background-color: white;
+	height: 50px;
+	width: 100%;
+}
+#bar3{
+	position: absolute;
+	top: 100px;
+    background-color: yellow;
+	height: 40px;
+	width: 100%;
+}
+a{
+	color: white;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: black;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border:1px solid white;
+
+}
+ul li{
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+
+}
+.leftbar ul li{
+	display: block;
+	float: left;
+}
+.rightbar ul li{
+	display: inline-block;
+	float: right;
+}
+.latest ul li{
+	display: block;
+	float: left;
+	color: black;
+}
+.join ul li{
+	display: inline-block;
+	float: right;
+	color: black;
+}
+
+.joinit p{
+	display: inline-block;
+	color: black;
+	float: left;
+	margin-left: 45px;
+}
+.container{
+	position: absolute;
+	top: 140px;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	
+}
+.TNW{
+	 background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/bitcoin.jpeg');
+    width: 850px;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+
+	}
+	.TNW h4{
+		position: absolute;
+		top: 20px;
+         margin-left: 670px;
+         font-size: 13px;
+
+	}
+	.firefox{
+		display: grid;
+		grid-template-rows: 50% 50%;
+	}
+	.fire1{
+      background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/master.jpeg') ;
+    background-size: cover;
+    color: white;
+    
+	}
+	.fire1 p{
+		margin-top: 150px;
+	}
+	.esoteric{
+         background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/master.jpeg');
+    background-size: cover;
+      color: white;
+	}
+		.esoteric h3{
+		margin-top: 115px;
+	}
+	.esoteric p{
+		margin-top: -15px;
+	}
+	
+	.main{
+		position: absolute;
+		top:650px;
+		display: inline-grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-gap: 0.1em;
+	}
+	.main a{
+		color: black;
+		text-decoration: none;
+	}
+	.latestfunding{
+		position: absolute;
+		top: 1350px;
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-gap: 1em;
+	}
+
+	.main3{
+		position: absolute;
+		top: 1550px;
+		display: grid;
+		grid-template-columns:  30% 30% 30%;
+		grid-gap: 3em;
+	}
+		.main4{
+		position: absolute;
+		top: 1750px;
+		display: grid;
+		grid-template-columns:  35% 35% 35%;
+		grid-gap: 1em;
+	}
+		.main5{
+	    position: absolute;
+		top: 1950px;
+		display: grid;
+		grid-template-columns:  35% 35% 35%;
+		grid-gap: 1em;
+	}
+		.main6{
+	    position: absolute;
+		top: 2350px;
+		display: grid;
+		grid-template-columns:  35% 35% 35%;
+		grid-gap: 1em;
+	}
+		.mainlatest{
+	    position: absolute;
+		top: 2550px;
+		display: grid;
+		grid-template-columns:  25% 25% 25%;
+		grid-gap: 1em;
+	}
+	.mainlatest a{
+		color: red;
+		font-size: 18px;
+	}
+	.latestmain{
+		display: inline-flex;
+	}
+	.latestmain ul li{
+		color: black;
+	}
+	.mainlist{
+		display: grid;
+		grid-template-columns: 30% 30% 30%;
+	}
+	ul li{
+	font-size: 6px;
+		
+	}
+	.latestdeals{
+		position: absolute;
+		top: 2950px;
+		display: grid;
+		grid-template-columns: 27% 27% 27% 27%;
+		grid-gap: 0.1em;
+	}
+	.creative{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/hand.jpeg');
+    background-size: cover;
+      color: white;
+	}
+	.creative h3{
+    margin-top:180px;
+	}
+	.creative p{
+		font-size:20px;
+	}
+	.podium{
+	 background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/pp.jpeg');
+    background-size: cover;
+      color: white;
+	}
+	.podium h3{
+    margin-top:180px;
+	}
+	.podium p{
+		font-size:20px;
+	}
+	.insight{
+		 background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/pp.jpeg');
+    background-size: cover;
+      color: white;
+	}
+	.launch{
+		 background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/pp.jpeg');
+    background-size: cover;
+      color: white;
+	}
+	.distract{
+		 background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/pp.jpeg');
+    background-size: cover;
+      color: white;
+	}
+footer{
+	width: 100%;
+	height: 50px;
+
+	}
+#footerbar{
+
+}
