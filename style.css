@@ -2,6 +2,7 @@
  background-color: black;
 	height: 50px;
 	width: 100%;
+	 font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 #bar2{
 	position: absolute;
@@ -9,6 +10,10 @@
  background-color: white;
 	height: 50px;
 	width: 100%;
+	 font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+#bar2 ul li{
+	color: #aaaaaa;
 }
 #bar3{
 	position: absolute;
@@ -16,9 +21,30 @@
     background-color: yellow;
 	height: 40px;
 	width: 100%;
+	 font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+#bar3 a{
+	text-decoration: none;
+	color: black;
 }
 a{
 	color: white;
+}
+.below ul li{
+	display: inline-flex;
+	width: 100%;
+	height: 20px;
+}
+.latestnews h5{
+	position: absolute;
+	top: 380px;
+	font-size: 28px;
+
+font-family: Avalon, sans-serif;
+letter-spacing: -2px;
+color: #f42;
+text-decoration: none;
+	
 }
 .dropdown-content {
   display: none;
@@ -29,6 +55,7 @@ a{
 
   z-index: 1;
 }
+
 .dropdown-content a {
   color: white;
   padding: 12px 16px;
@@ -71,8 +98,13 @@ ul li{
 	float: right;
 	color: black;
 }
+.join button{
+	background-color: #0cc;
+	width: 130px;
+	border-radius: 4px;
+}
 
-.joinit p{
+.joinit a{
 	display: inline-block;
 	color: black;
 	float: left;
@@ -86,16 +118,22 @@ ul li{
 	
 }
 .TNW{
-	 background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('images/bitcoin.jpeg');
+	 background-image: url('images/article.jpeg');
     width: 850px;
     height: 400px;
     background-size: cover;
     color: white;
     padding: 20px;
     font-size: 28px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e42121), to(#332727));
+     background-image: -o-linear-gradient(#e42121, #332727);
+     background-image: linear-gradient(#e42121, #332727);
+     opacity: .8;
 
+	}
+	.TNW i{
+		margin-top: 70px;
+		padding: 0px;
 	}
 	.TNW h4{
 		position: absolute;
@@ -104,6 +142,15 @@ ul li{
          font-size: 13px;
 
 	}
+	.TNW p{
+		font-family: Avalon, sans-serif;
+font-size: 0.99em;
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+letter-spacing: -.011em;
+margin-bottom: 10px;
+	}
 	.firefox{
 		display: grid;
 		grid-template-rows: 50% 50%;
@@ -111,13 +158,15 @@ ul li{
 	.fire1{
       background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('images/master.jpeg') ;
+    url('images/flagship.jpg') ;
     background-size: cover;
     color: white;
+  
+
     
 	}
 	.fire1 p{
-		margin-top: 150px;
+		margin-top: 140px;
 	}
 	.esoteric{
          background-image:
@@ -132,25 +181,127 @@ ul li{
 	.esoteric p{
 		margin-top: -15px;
 	}
-	
+	.esoteric i{
+		margin-top: -10px;
+	padding: 0px;
+	}
+	.main span{
+		margin-left: 9px;
+        color: #aaaaaa;
+		margin-top: 8px;
+		font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+		font-size: 14px;
+		cursor: pointer;
+	}
 	.main{
 		position: absolute;
 		top:650px;
 		display: inline-grid;
 		grid-template-columns: 25% 25% 25% 25%;
 		grid-gap: 0.1em;
+		
 	}
 	.main a{
-		color: black;
-		text-decoration: none;
+font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 17px;
+color: black;
+cursor: pointer;
+font-weight: bolder;
 	}
 	.latestfunding{
 		position: absolute;
-		top: 1350px;
+		top: 1090px;
 		display: grid;
 		grid-template-columns: 25% 25% 25% 25%;
 		grid-gap: 1em;
 	}
+	.Songtradr{
+		position: relative;
+		width: 300px;
+	}
+	.Songtradr h5{
+		width: 70%;
+		background-color: red;
+		padding: 10px 1px 7px 84px;
+		height: 40px;
+
+	}
+	.Songtradr img{
+		margin-top: -40px;
+		margin-left: 10px;
+	}
+	
+	.Songtradr h6{
+		width: 70%;
+		height: 50px;
+		
+		margin-top: -70px;
+		margin-left: 110px;
+	}
+	.Skrap{
+		position: relative;
+		width: 300px;
+	}
+	.Skrap h5{
+		width: 70%;
+		background-color: red;
+		padding: 10px 1px 7px 84px;
+		height: 40px;
+
+	}
+	.Skrap img{
+		margin-top: -40px;
+		margin-left: 10px;
+	}
+	
+	.Skrap h6{
+		margin-top: -70px;
+		margin-left: 110px;
+	}
+	.Wrapbook{
+		position: relative;
+		width: 300px;
+	}
+	.Wrapbook h5{
+		width: 70%;
+		background-color: red;
+		padding: 10px 1px 7px 84px;
+		height: 40px;
+
+	}
+	.Wrapbook img{
+		margin-top: -40px;
+		margin-left: 10px;
+	}
+	
+	.Wrapbook h6{
+		margin-top: -70px;
+		margin-left: 110px;
+	}
+	.DataProphet{
+		position: relative;
+		width: 300px;
+	}
+	.DataProphet h5{
+		width: 70%;
+		background-color: red;
+		padding: 10px 1px 7px 84px;
+		height: 40px;
+
+	}
+	.DataProphet img{
+		margin-top: -40px;
+		margin-left: 10px;
+	}
+	
+	.DataProphet h6{
+		margin-top: -70px;
+		margin-left: 110px;
+	}
+	
+
 
 	.main3{
 		position: absolute;
@@ -202,7 +353,7 @@ ul li{
 		grid-template-columns: 30% 30% 30%;
 	}
 	ul li{
-	font-size: 6px;
+	
 		
 	}
 	.latestdeals{
@@ -261,9 +412,39 @@ ul li{
 	}
 footer{
 	width: 100%;
-	height: 50px;
+	height: 250px;
+	position: absolute;
+   top: 3550px;
+	background-color:  	#131313;;
 
 	}
-#footerbar{
+	
+i{
+color: white;
+margin-top: 150px;
+padding: 10px;
+
+	}
+	
+footer ul li{
+ list-style: none;
+ font-size: 15px;
+ display: inline-flex;
+ padding: 0px;
+ margin-left: 70px;
+}
+#navbottom{
+	position: absolute;
+   top: 3799px;
+	background-color: black;
+	height: 150px;
+	width: 100%;
+
+}
+#navbottom p{
+	color: white;
+	margin-left: 180px;
+	margin-top: 60px;
+
 
 }
